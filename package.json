@@ -1,0 +1,21 @@
+{
+  "name": "frogpodspec",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsup --onSuccess \"tsc --declaration --emitDeclarationOnly\"",
+    "dev": "tsup --watch",
+    "typecheck": "tsc --noEmit"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tsup": "^8.3.0",
+    "typescript": "^5.6.2"
+  },
+  "dependencies": {
+    "@pcd/podspec": "^0.0.2"
+  }
+}
